@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.text-caps {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #123456;
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    max-width: 550px;
+}
