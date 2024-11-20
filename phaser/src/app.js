@@ -16,6 +16,7 @@ import { Cap2g } from "./cap2-g.js";
 import { Cap2h } from "./cap2-h.js";
 import { Cap2i } from "./cap2-i.js";
 import { Lose } from "./youlose.js";
+import { Win } from "./youwin.js";
 
 
 
@@ -23,7 +24,7 @@ var config = {
     type: Phaser.AUTO,
     width: 1350,
     height: 600,
-    scene: [Start, Explain, Cap1a, Cap1b, Cap1c, Cap1d, Cap1e, Cap1f, Cap2a, Lose, Cap2b, Cap2c, Cap2d, Cap2e, Cap2f, Cap2g, Cap2h, Cap2i]
+    scene: [Start, Explain, Cap1a, Cap1b, Cap1c, Cap1d, Cap1e, Cap1f, Cap2a, Lose, Cap2b, Cap2c, Cap2d, Cap2e, Cap2f, Cap2g, Cap2h, Cap2i, Win]
 };
 
 var game = new Phaser.Game(config);

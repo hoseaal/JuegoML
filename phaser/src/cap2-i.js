@@ -30,7 +30,7 @@ export class Cap2i extends Phaser.Scene {
             .setInteractive()
             .on('pointerdown', () => {
                 console.log('Flecha clicada'); // Añadir log para ver si el clic se registra
-                displayNextDialogue(this, '')
+                displayNextDialogue(this, 'Win')
             });
 
         // Texto de ejemplo para la narrativa
